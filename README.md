@@ -1,7 +1,7 @@
 # spin-correlation-coefficient-calculator
 Spin correlation coefficients are parametrized coefficients that act as gauge fields. They ensure that the co-variant derivative accounts for local transformations in the tetrad field correctly. This is because spinors may transform differently than vectors under Lorentz transforms. 
 For example, in the context of the Dirac equation, the co-variant derivative of a 4-spinor $\psi$ is given by
-$$\Delta_{\mu}\psi = \partial_{\mu} + \frac{1}{4} \omega_{\mu}^{ab}[\gamma_a, \gamma_b]\psi$$
+$$\nabla_{\mu}\psi = \partial_{\mu} + \frac{1}{4} \omega_{\mu}^{ab}[\gamma_a, \gamma_b]\psi$$
 The spin correlation coefficients are given by
 $$\omega_{\mu}^{ab} = e^{a\alpha}\left(\partial_
 {\mu}e_{\alpha}^b + \Gamma_{\mu\alpha}^{\nu} e_{\nu}^{b}\right)$$
